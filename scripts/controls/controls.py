@@ -9,9 +9,10 @@ H_PID_CONSTANTS = (100, 100, 100)
 DEPTH_PID_CONSTANTS = (100, 100, 100)
 VERT_PID_CONSTANTS = (100, 100, 100)
 
+#dictionary for pins on the Sub
 sub_pins = {'front_left':1, 'front_right':2, 'back_left':3, 'back_right':4, 'left_h': 5, 'right_h':6}
 
-
+#in charge of only the vertical componenet of the sub
 class Vertical_Controller:
     def __init__(self, front_left_pin, front_right_pin, back_left_pin, back_right_pin, v_pid_konstants, y_pid_konstants, z_pid_konstants,
                  v_setpoint = 0, y_setpoint = 0, z_setpoint = 0):
