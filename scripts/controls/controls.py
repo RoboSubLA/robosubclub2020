@@ -1,7 +1,6 @@
 from pid import PID
 from angle_optimization import angle_optimization
 
-#Constants in kp, ki, kd
 X_PID_CONSTANTS = (100, 100, 100)
 Y_PID_CONSTANTS = (100, 100, 100)
 Z_PID_CONSTANTS = (100, 100, 100)
@@ -11,6 +10,7 @@ VERT_PID_CONSTANTS = (100, 100, 100)
 
 sub_pins = {'front_left':1, 'front_right':2, 'back_left':3, 'back_right':4, 'left_h': 5, 'right_h':6}
 
+# adding a comment here - r2
 
 class Vertical_Controller:
     def __init__(self, front_left_pin, front_right_pin, back_left_pin, back_right_pin, v_pid_konstants, y_pid_konstants, z_pid_konstants,
