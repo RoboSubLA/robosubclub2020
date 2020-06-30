@@ -1,0 +1,4 @@
+float32 current_yaw
+float32 current_pitch
+float32 current_roll
+float32 current_depth
